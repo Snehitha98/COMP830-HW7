@@ -1,0 +1,16 @@
+package hw7;
+
+public class Penguin implements Animal{
+	public String aboutMe() {
+		return "penguin";
+	}
+	
+	public String diet() {
+		return "mostly fish";
+	}
+	
+	public String movement() {
+		return "waddle and swim";
+	}
+
+}
